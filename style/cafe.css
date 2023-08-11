@@ -36,6 +36,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: #2409022c;
     z-index: 1000;
     width: 100%;
     /* margin: 0; */
@@ -63,7 +64,7 @@ body{
 .menu .navbar ul li a {
     font-size: 18px;
     padding: 20px;
-    color: #884A39;
+    color: aqua;
     display: block;
     font-weight: bold;
 }
@@ -94,6 +95,7 @@ body{
     text-transform: uppercase;
     font-family: 'Cinzel', serif;
     color: #C38154;
+    margin-top: 50px;
     margin-bottom: 15px;
 }
 .header-txt p{
@@ -137,4 +139,40 @@ body{
     font-size: 22px;
     color: #EEC373;
     text-transform: uppercase;
+}
+.welcome {
+    display: flex;
+}
+.welcome-1 {
+    background-image: url(/images/fondo-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+}
+.welcome-2 {
+    width: 70%;
+    padding: 150px 250px 150px 100px;
+    background-color: #884A39;
+}
+h2{
+    font-size: 70px;
+    line-height: 100px;
+    color: #FFC26F;
+    text-transform: uppercase;
+    font-family: 'Cinzel', serif;
+    margin-bottom: 20px;
+    
+}
+p {
+    font-size: 18px;
+    color: #282828;
+    /* font-weight: 600; */
+    margin: 25px 0;
+}
+.b1{
+    color: #282828;
+    /* font-weight: 600;
+    font-size: 18px;
+    margin: 25px 0; */
 }
