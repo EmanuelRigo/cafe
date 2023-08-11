@@ -69,7 +69,7 @@ body{
     font-weight: bold;
 }
 .menu .navbar ul li a:hover{
-    color: #FFC26F;
+    color: azure;
     transition: 2s;
     background: transparent;
 }
@@ -175,4 +175,50 @@ p {
     /* font-weight: 600;
     font-size: 18px;
     margin: 25px 0; */
+}
+.services {
+    padding: 100px 0;
+    text-align: center;
+}
+
+
+.services-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+    border: 1px solid #884A39;
+    width: 80px;
+    margin: 0 auto;
+}
+.services-txt p{
+    padding: 50px 150px;
+     
+}
+.services-group{
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0;
+}
+.services-1{
+    background-color: #FFC26F;
+    padding: 35px 25px;
+    /* width: 30%; */
+    margin: 0 10px;
+    border-radius: 15px;
+}
+.services-1 img{
+    width: 25px;
+    margin-bottom: 15px;
+}
+.services-1 h3{
+    font-size: 25px;
+    color: #884A39;
+}
+.services-1 a{
+    text-decoration: underline;
+    color: #884A39;
+    font-weight: 600;
+    font-size: 18px;
 }
