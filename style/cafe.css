@@ -222,3 +222,38 @@ hr{
     font-weight: 600;
     font-size: 18px;
 }
+
+.prices{
+    display: flex;
+}
+.prices-1{
+    width: 50%;
+    padding: 150px 250px 150px 100px;
+    background-color: #884A39;
+}
+table{
+    margin: 50px 0;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #F9E0BB;
+    margin-bottom: 20px;
+}
+th{
+    color: #EEC373;
+    padding-bottom:15px;
+}
+td{
+    color: red;
+}
+.prices-2{
+    background-image: url(/images/cafes.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
