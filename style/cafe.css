@@ -88,7 +88,7 @@ body{
     margin-bottom: 45px;
     /* position: relative; */
 }
-.header-txt h1, span, h3 {
+.header-txt h1, h3 {
     font-size: 110px;
     /* position: relative; */
     letter-spacing: 3px;
@@ -97,6 +97,9 @@ body{
     color: #C38154;
     margin-top: 50px;
     margin-bottom: 15px;
+}
+#manu-cafe{
+    color: aqua;
 }
 .header-txt p{
    color: aqua;
@@ -316,8 +319,6 @@ td{
 .footer-txt{
     width: 100%;
     background: #282828;
-  
-
     text-align: center;
     padding: 10px;
     
@@ -334,4 +335,52 @@ td{
     width: 40px;
     height: 40px;
     margin: 20px;
+}
+
+@media(max-width:991px) {
+    .menu{
+        padding: 20px;
+    }
+    .menu label {
+        display: initial;
+    }
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left:0;
+        right: 0;
+        background-color: #865439;
+        display: none;
+    }
+    .menu .navbar ul li {
+        width: 100%;
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    .header {
+        min-height: 0vh;
+        /* position: relative; */
+    }
+    .header-content {
+        padding: 80px 30px 50px 30px;
+        /* position: relative; */
+    }
+    .header-txt{
+        margin-bottom: 15px;
+        /* position: relative; */
+    }
+    .header-txt h1{
+        /* position: relative; */
+        font-size: 90px;
+    }
+    .header-txt p{
+        padding: 0;
+        /* position: relative; */
+        margin: 15px 0;
+    }
+    .header-dir{
+        flex-direction: column;
+        /* position: relative; */
+    }
 }
