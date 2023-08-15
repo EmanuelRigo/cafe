@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&family=Playfair+Display&family=Ysabeau:wght@1;300&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Dancing+Script&family=Montserrat:wght@100;300;700&family=Playfair+Display&family=Ysabeau:wght@1;300&display=swap');
 
 *{
@@ -23,7 +23,7 @@ html{
 }
 
 
-/* /////////css para el header///////// */
+/* ///////// CSS HEADER ///////// */
 .header{
   
     background-image: url(/images/fondo-header.jpg);
@@ -91,8 +91,10 @@ html{
     margin-bottom: 15px;
 }
 #manu-cafe{
-    color: aqua;
+    color:  #EAC696;
+    
 }
+
 .header-txt p{
     color: #EAC696;
     background: #00000040;
@@ -129,11 +131,12 @@ html{
     color: #884A39;
 }
 .dir p {
+  
     font-size: 22px;
     color: #EAC696;
     text-transform: uppercase;
 }
-/* /////////css para el welcome///////// */
+/* /////////CSS WELCOME ///////// */
 .welcome {
     display: flex;
 }
@@ -159,7 +162,7 @@ h2{
     
 }
 .titulo-cafe{
-    font-size: 70px;
+    font-size: 60px;
     line-height: 100px;
     color: #884A39;
     text-transform: uppercase;
@@ -167,6 +170,7 @@ h2{
     margin-bottom: 20px;
 }
 p {
+    font-weight: 600;
     font-size: 18px;
     color: #000000;
     margin: 25px 0;
@@ -175,9 +179,9 @@ p {
     color: #000000;
   
 }
-/* /////////css para el services///////// */
+/* /////////CSS SERVICES ///////// */
 .services {
-    padding: 100px 0;
+    padding: 80px 0;
     text-align: center;
 }
 
@@ -189,7 +193,7 @@ p {
 }
 hr{
     border: 1px solid #884A39;
-    width: 80px;
+    width: 130px;
     margin: 0 auto;
 }
 .services-txt p{
@@ -207,13 +211,16 @@ hr{
     margin: 0 10px;
     border-radius: 15px;
 }
+
+
 .services-1 img{
     width: 50px;
-    margin-bottom: 15px;
+   
 }
 .services-1 h3{
     font-size: 25px;
     color: #884A39;
+    margin-top: 25px;
 }
 .services-1 a{
     text-decoration: underline;
@@ -221,7 +228,7 @@ hr{
     font-weight: 600;
     font-size: 18px;
 }
-/* /////////css para el prices///////// */
+/* /////////CSS PRICES ///////// */
 .prices{
     display: flex;
 }
@@ -256,9 +263,9 @@ td{
     background-size: cover;
     width: 50%;
 }
-/* /////////css para el personal///////// */
+/* /////////CSS PERSONAL ///////// */
 .personal{
-    padding: 100px 0;
+    padding: 80px 0;
     text-align: center;
     background: #C38154;
    
@@ -283,8 +290,8 @@ td{
    
 }
 .personal-1 img{
-    width: 65%;
-    height: 50%;
+    width: 280px;
+    height: 200px;
     border: solid 1px #865439;
     border-radius: 15px;
     margin-bottom: 25px;
@@ -292,18 +299,20 @@ td{
    
 }
 .personal-1 h3{
-   font-size: 22px;
+    margin-top: 10px;
+   font-size: 20px;
    color: #884A39;
    
 }
 .personal-1 p {
-   padding: 0 50px;
+
+   padding: 0 15px;
    
 }
 .personal-1 a{
    color: #F9E0BB;
 }
-/* /////////css para el footer///////// */
+/* /////////CSS FOOTER ///////// */
 .footer-txt{
     width: 100%;
     background: #282828;
@@ -324,7 +333,7 @@ td{
     height: 40px;
     margin: 20px;
 }
-/* /////////css para el media///////// */
+/* /////////CSS MEDIA ///////// */
 @media(max-width:991px) {
     .menu{
         padding: 20px;
